@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x86",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "${default}",
+                "__VSCODE_CPPTOOL",
+                "USE_HAL_DRIVER",
+                "STM32F429xx",
+                "USE_USB_OTG_FS"
+            ],
+            "intelliSenseMode": "windows-gcc-x86",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                "c:\\Users\\wangj\\.vscode\\extensions\\cl.eide-2.12.3\\bin\\include\\internal_headers\\armcc_intr.h"
+            ],
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic"
+            ],
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe"
+        }
+    ],
+    "version": 4
+}

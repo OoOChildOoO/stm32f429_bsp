@@ -1,0 +1,8 @@
+*.__i
+*.o
+*.d
+*.html
+*.htm
+*.crf
+/build
+/Core/User/ff14b/documents
